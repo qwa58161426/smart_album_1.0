@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da78d24b-3f3c-40c1-a1ff-b86b15058735" name="Default Changelist" comment="">
+    <list default="true" id="da78d24b-3f3c-40c1-a1ff-b86b15058735" name="Default Changelist" comment="1.0版本">
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
@@ -126,10 +125,79 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_1_5.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_5.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/smart-album_1.0.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/smart_album_1.0/smart_album.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/ApplicationContextHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/Scheduled/ScheduledTasks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/SmartAlbumApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/config/ThreadConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/controller/AlbumController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/controller/PhotoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/dao/config/RedisConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/dao/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/dao/mapper/AlbumMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/dao/mapper/PhotoAlbumRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/dao/mapper/PhotoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/dao/mapper/PhotoTagRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/dao/mapper/RetrievePasswordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/dao/mapper/TagMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/dao/mapper/TempFileMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/dao/mapper/UserLikePhotoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/dao/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/email/SendEmailToRetrievePassword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/entity/Album.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/entity/Count.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/entity/Photo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/AlreadyLogInException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/EmailExistException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/EmailNotExistException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/EmptyFileException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/ForbiddenAccessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/ForbiddenEditException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/NotImageException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/NotLogInException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/PageNotExistException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/PasswordErrorException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/SidErrorException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/SpaceAlreadyFullException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/SuffixErrorException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/UploadFailedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/UsernameExistException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/exception/UsernameOrEmailNotExistException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/externalAPI/Baidu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/externalAPI/Tencent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/httpSessionListener/OnlineUserStatistics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/service/AlbumService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/service/AsyncTaskService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/service/PhotoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/service/impl/AlbumServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/service/impl/AsyncTaskServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/service/impl/PhotoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/tools/PhotoTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/com/zhitu/tools/ZipTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/mapper/albumMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/mapper/photoAlbumRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/mapper/photoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/mapper/photoTagRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/mapper/retrievePasswordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/mapper/tagMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/mapper/tempFileMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/mapper/userLikePhotoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/classes/templates/retrievePasswordEmail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/surefire-reports/TEST-com.zhitu.SmartAlbumApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/surefire-reports/com.zhitu.SmartAlbumApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_album_1.0/target/test-classes/com/zhitu/SmartAlbumApplicationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smart_album_1.0/src/main/java/com/zhitu/email/SendEmailToRetrievePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart_album_1.0/src/main/java/com/zhitu/email/SendEmailToRetrievePassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smart_album_1.0/src/main/java/com/zhitu/externalAPI/Baidu.java" beforeDir="false" afterPath="$PROJECT_DIR$/smart_album_1.0/src/main/java/com/zhitu/externalAPI/Baidu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smart_album_1.0/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/smart_album_1.0/src/main/resources/application.properties" afterDir="false" />
@@ -150,6 +218,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1VrYRHAuUUynYQfMcW8FRnMYRBS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -195,14 +264,34 @@
       <option name="presentableId" value="Default" />
       <updated>1578012673862</updated>
       <workItem from="1578012681102" duration="245000" />
-      <workItem from="1578013058541" duration="1477000" />
+      <workItem from="1578013058541" duration="1904000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0版本">
+      <created>1578014856932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578014856932</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0版本" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="180" y="0" key="CommitChangelistDialog2" timestamp="1578014851800">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="180" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578014851800" />
+    <state x="129" y="61" key="DiffContextDialog" timestamp="1578014790170">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="61" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1578014790170" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1578014688653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -231,6 +320,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578013694277" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578015002674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578015002674" />
     <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1578013058660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
